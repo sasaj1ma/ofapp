@@ -38,7 +38,5 @@ cd 作品名 && make Release -j8 && make RunRelease
 
 - `_template/` — 新しい作品の雛形。`new.sh` がここからコピーする
 - `new.sh` — 作品フォルダを作るスクリプト
-- `plasma/` — 64×64 LED パネルへ DDP で送る作品。`shared/` を使う。準備は `plasma/README.md`
-- `shared/` — plasma 用の部品（`LedCanvas.h` は 64×64 の描画台、`DdpSender.h` は DDP 送信）
 
 `bin/`（`bin/data/` は除く）と `obj/` はビルドで作られるので git に入れません。素材は `bin/data/` に置きます。
