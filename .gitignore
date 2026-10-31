@@ -1,0 +1,5 @@
+.DS_Store
+*/bin/*
+!*/bin/data/
+*/bin/data/screenshot-*.png
+*/obj/
